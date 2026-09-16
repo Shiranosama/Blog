@@ -13,7 +13,7 @@ keywords:
   - GNU/Linux
 description: Linux，计算机不得不品的一环第一部分，介绍Linux发行版，以及如何选择适合自己的Linux发行版
 date: 2025-07-30 19:24:34
-draft: false
+draft: true
 build:
   render: never
   list: never
