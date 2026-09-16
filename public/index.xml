@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>岚のせかい</title>
+    <link>http://localhost:1313/</link>
+    <description>当其贯日月，死生安足论</description>
+    <generator>Hugo 0.166.0 &amp; FixIt v1.0.0-alpha.2</generator>
+    <language>zh-CN</language>
+    <managingEditor>mufeng319@gmail.com (Shirano)</managingEditor>
+    <webMaster>mufeng319@gmail.com (Shirano)</webMaster>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
