@@ -15,6 +15,7 @@ description: Linux，计算机不得不品的一环第二部分，介绍Linux基
 summary: Linux，计算机不得不品的一环第二部分，介绍Linux基本安装与配置
 date: 2025-08-10 11:32:51
 draft: false
+slug: 55a629368c7c42f2bcd0c9fa6b0a43aa
 ---
 
 ## 前言
@@ -23,7 +24,7 @@ draft: false
 
 <font size=4>本文为**岚**的**折腾日记**，它只是因为我**想**而写下的，**不具备**权威性，我也**无法**保证正确，**仅供参考**</font>
 
-在[上一篇文章](https://shiranosama.github.io/posts/aaa88a44/index.html)中，我们介绍了Linux的起源、发展以及如何选择适合自己的发行版。本文将介绍Linux的基本安装与配置，帮助读者更好地了解和使用Linux系统
+在[上一篇文章](https://shiranosama.github.io/Blog/posts/beceac6e0f8ea4b7bdfb308e3ded2ef5/)中，我们介绍了Linux的起源、发展以及如何选择适合自己的发行版。本文将介绍Linux的基本安装与配置，帮助读者更好地了解和使用Linux系统
 本文并不会去介绍某一发行版的安装，官方文档已经足够详细，我将会介绍安装通用步骤都做了什么，并引出一些基本概念
 
 与前文相同，本文将**Linux**用于指代**基于Linux内核的操作系统**

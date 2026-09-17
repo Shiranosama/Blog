@@ -20,6 +20,7 @@ date: 2025-07-20 11:30:39
 description: Windows平台下基于MPC-BE+MadVR+LAVFilters的播放器详细配置指南，小白也能轻松看懂。或许是目前最优观影方案？
 summary: Windows平台下基于MPC-BE+MadVR+LAVFilters的播放器详细配置指南，小白也能轻松看懂。或许是目前最优观影方案？
 draft: false
+slug: da3b489c395bbed18efd27f30943874d
 ---
 <font size=5>***长文注意⚠️***</font>
 

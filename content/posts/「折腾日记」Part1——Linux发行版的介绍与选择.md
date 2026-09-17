@@ -15,6 +15,7 @@ description: Linux，计算机不得不品的一环第一部分，介绍Linux发
 summary: Linux，计算机不得不品的一环第一部分，介绍Linux发行版，以及如何选择适合自己的Linux发行版
 date: 2025-07-30 19:24:34
 draft: false
+slug: beceac6e0f8ea4b7bdfb308e3ded2ef5
 ---
 
 ## 前言
@@ -138,4 +139,4 @@ flowchart LR
 ## 结语
 以上，本章完。
 
-<font size=4>下一篇：[「折腾日记」Linux的基本安装与配置](https://shiranosama.github.io/posts/312fd4e3/index.html)</font>
+<font size=4>下一篇：[「折腾日记」Linux的基本安装与配置](https://shiranosama.github.io/Blog/posts/55a629368c7c42f2bcd0c9fa6b0a43aa/)</font>
