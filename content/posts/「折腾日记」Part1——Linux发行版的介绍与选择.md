@@ -12,6 +12,7 @@ keywords:
   - RedHat
   - GNU/Linux
 description: Linux，计算机不得不品的一环第一部分，介绍Linux发行版，以及如何选择适合自己的Linux发行版
+summary: Linux，计算机不得不品的一环第一部分，介绍Linux发行版，以及如何选择适合自己的Linux发行版
 date: 2025-07-30 19:24:34
 draft: false
 ---
@@ -30,6 +31,7 @@ draft: false
 **Linux内核**经由**Linus Benedict Torvalds**之手发布了最早到版本，也就是我们常说的**Linux之父**，他在1991年发布了Linux内核的第一个版本 **（没错，严格来说Linux实际上指操作系统内核）**，而 **完整的操作系统包含 *Linux内核* *GNU工具链* 以及 *X Window等其他组件***。**GNU**起源于**Richard Matthew Stallman**发起的**GNU计划**，目标是创建一个完全自由的操作系统。**自由软件基金会**将 **GNU工具链与Linux内核**的组合命名为 **GNU/Linux**，但由于**Linux不属于GNU** 计划的一部分，因此**GNU/Linux**这一命名也没有获得社区的一致认可。不过，现在人们通常将**Linux**直接用于指代完整操作系统。**本文将遵循大多数人的习惯，使用Linux一词来指代基于Linux内核的完整操作系统（即Linux发行版）。**
 
 > 小知识：**GNU** 计划中的“GNU”是 **“GNU's Not Unix!”** 的缩写，意为 **“GNU不是Unix”**；开源协议 **GPL——GNU General Public License** 也来自这里，意为 **“GNU通用公共许可证”**。
+
 得益于 **Linux** 开源的特性，其得到了广泛的传播和应用。从桌面操作系统到服务器操作系统，从嵌入式系统到移动设备，**Linux** 都在其中发挥着重要作用。例如你手头的安卓手机，就是基于 **Linux** 内核的操作系统；而 **Linux** 的另一个重要应用领域是服务器，如 **RHEL、CentOS**。许多大型网站和互联网公司都使用 **Linux** 作为其服务器操作系统，因为它的稳定性和安全性都得到了广泛的认可。对于个人用户，也诞生了许多 **Linux** 发行版，如 **Ubuntu、Fedora、Debian** 等，它们提供了丰富的实用工具和易于使用的界面，使得 **Linux** 操作系统更加易于使用。
 
 ### Why Linux?

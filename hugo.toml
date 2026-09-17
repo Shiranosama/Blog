@@ -9,7 +9,8 @@
 # Hugo Configuration
 # See: https://gohugo.io/configuration/all/
 # -------------------------------------------------------------------------------------
-
+buildExpired = true
+buildFuture = true
 # Website title.
 title = "岚のせかい"
 # Hostname (and path) to the root.
@@ -92,13 +93,21 @@ lastmod = [
 [menus]
 
 [[menus.main]]
+identifier = "more"
+name = "更多"
+weight = 10
+
+[menus.main.params]
+icon = "fa-solid fa-list"
+
+[[menus.main]]
 identifier = "archives"
 parent = ""
 # You can add extra information before the name (HTML format is supported), such as icons.
 pre = ""
 # You can add extra information after the name (HTML format is supported), such as icons.
 post = ""
-name = "Archives"
+name = "归档"
 url = "archives/"
 # Title will be shown when you hover on this menu link.
 title = ""
@@ -112,7 +121,7 @@ class = ""
 # Visible when env var is set: HUGO_PARAMS_MENU_DRAFT=true hugo server
 draft = false
 # Add FontAwesome icon to a specific menu item.
-icon = "fa-solid fa-archive"
+icon = "fa-solid fa-box-archive"
 # Set menu item type.
 # available values: ["mobile", "desktop"]
 type = ""
@@ -124,26 +133,40 @@ identifier = "categories"
 parent = ""
 pre = ""
 post = ""
-name = "Categories"
+name = "分类"
 url = "categories/"
 title = ""
 weight = 2
 
 [menus.main.params]
-icon = "fa-solid fa-folder-tree"
+icon = "fa-solid fa-folder-open"
 
 [[menus.main]]
 identifier = "tags"
-parent = ""
+parent = "more"
 pre = ""
 post = ""
-name = "Tags"
+name = "标签"
 url = "tags/"
 title = ""
 weight = 3
 
 [menus.main.params]
 icon = "fa-solid fa-tags"
+
+[[menus.main]]
+identifier = "about"
+parent = "more"
+pre = ""
+post = ""
+name = "关于"
+url = "about/"
+title = ""
+weight = 4
+
+[menus.main.params]
+icon = "fa-solid fa-address-card"
+
 
 # -------------------------------------------------------------------------------------
 # Related content Configuration
@@ -1816,11 +1839,11 @@ height = "2px"
 enable = true
 # All available colors:
 # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"].
-color = "pink"
+color = "silver"
 # All available themes:
 # ["barber-shop", "big-counter", "bounce", "center-atom", "center-circle", "center-radar", "center-simple",
 # "corner-indicator", "fill-left", "flash", "flat-top", "loading-bar", "mac-osx", "material", "minimal"].
-theme = "big-counter"
+theme = "bounce"
 
 # Global Feed configuration for RSS, Atom and JSON feed.
 [params.feed]
@@ -1887,17 +1910,17 @@ global_font_weight = ""
 global_line_height = ""
 global_border_radius = ""
 # Global Colors #
-global_background_color = "#B9CDF6"
+global_background_color = ""
 global_background_color_dark = ""
 global_font_color = ""
 global_font_color_dark = ""
 global_font_secondary_color = ""
 global_font_secondary_color_dark = ""
-global_link_color = "#FF9ECF"
-global_link_color_dark = "#FF9ECF"
-global_link_hover_color = "#FF9ECF"
+global_link_color = ""
+global_link_color_dark = ""
+global_link_hover_color = ""
 global_link_hover_color_dark = "#FF9ECF"
-global_border_color = "#A4D8FA"
+global_border_color = ""
 global_border_color_dark = "#A4D8FA"
 # Scrollbar #
 scrollbar_color = ""
@@ -1929,9 +1952,9 @@ collection_list_font_size = ""
 related_title_font_size = ""
 related_list_font_size = ""
 single_link_color = ""
-single_link_color_dark = ""
+single_link_color_dark = "#A4D8FA"
 single_link_hover_color = ""
-single_link_hover_color_dark = ""
+single_link_hover_color_dark = "#FF9ECF"
 # Table #
 table_background_color = ""
 table_background_color_dark = ""
