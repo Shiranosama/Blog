@@ -14,7 +14,7 @@ buildFuture = true
 # Website title.
 title = "岚のせかい"
 # Hostname (and path) to the root.
-baseURL = "http://localhost:1313"
+baseURL = "http://Shiranosama.github.io/Blog"
 # Theme list.
 # Enable in your site config file.
 theme = ["FixIt"]
@@ -2002,3 +2002,8 @@ github_corner_fill_dark = ""
 enable = false
 # Check for updates.
 c4u = false
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
