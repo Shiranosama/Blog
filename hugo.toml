@@ -1917,7 +1917,7 @@ post_footer_after = []
 # Note: Color values must use hex format (e.g. "#ff0000"), CSS named colors (e.g. "red") are not supported.
 [params.appearance]
 # Global Typography #
-global_font_family = ""
+global_font_family = "LXGW WenKai, Maple Mono NF CN, system-ui, sans-serif"
 global_font_size = ""
 global_font_weight = ""
 global_line_height = ""
@@ -1990,7 +1990,7 @@ pagination_link_hover_color_dark = ""
 # Code #
 code_color = ""
 code_color_dark = ""
-code_font_family = ""
+code_font_family = "Maple Mono NF CN, Menlo, Consolas, monospace"
 code_header_color = ""
 code_header_color_dark = ""
 code_header_background_color = ""
