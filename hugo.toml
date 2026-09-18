@@ -1552,7 +1552,7 @@ image_preview = true
 
 # Social configuration about the author.
 [params.social]
-GitHub = "https://github.com/Shiranosama"
+GitHub = "Shiranosama"
 Linkedin = ""
 Twitter = ""
 Instagram = ""
