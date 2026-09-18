@@ -155,6 +155,19 @@ weight = 3
 icon = "fa-solid fa-tags"
 
 [[menus.main]]
+identifier = "awesome"
+parent = ""
+pre = ""
+post = ""
+name = "Awesome"
+url = "awesome/"
+title = ""
+weight = 9
+
+[menus.main.params]
+icon = "fa-solid fa-glasses"
+
+[[menus.main]]
 identifier = "about"
 parent = "more"
 pre = ""
