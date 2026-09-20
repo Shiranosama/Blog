@@ -68,11 +68,12 @@ summary: Microsoft，你离开Visual Studio能开发Win SDK APP吗？我反正�
     # 一例：编译项目
     dotnet build ./Thisissln.sln /property:GenerateFullPaths=true /p:Configuration=Debug /p:Platform=x64 /consoleloggerparameters:NoSummary
 
-    # 一例：发布项目
-    dotnet publish ./Thisissln.sln /property:GenerateFullPaths=true /p:Configuration=Release /p:Platform=x64 /consoleloggerparameters:NoSummary
+    # 一例：发布项目为MSIX
+    dotnet publish ./Thisissln.sln /property:GenerateFullPaths=true /p:Configuration=Release /p:Platform=x64 /consoleloggerparameters:NoSummary /p:GenerateAppxPackageOnBuild=true
     ```
     - `Configuration`对应项目配置
     - `Platform`对应平台架构
+    - `GenerateAppxPackageOnBuild`告诉MSBuild生成AppxPackage
 
     > 为什么使用/p而不是-c/-r？
 
@@ -86,7 +87,7 @@ summary: Microsoft，你离开Visual Studio能开发Win SDK APP吗？我反正�
     makeappx pack /d .\win-x64\ /p Reorld.msix /o
     ```
 - 注：
-    - 确保你的产物文件夹包含msix打包所需文件（什么？你问我需要的文件有什么？哦，这得问Microsoft，dude）
+    - 确保你的产物文件夹包含msix打包所需文件
 
 ### signtool
 - signtool命令负责签名程序包，需要提供一个可用的代码签名证书：
